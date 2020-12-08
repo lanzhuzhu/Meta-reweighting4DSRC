@@ -6,14 +6,17 @@ The implementation of ["Meta-Learning for Neural Relation Classification with Di
 - python >= 3.5
 - pytorch >= 1.3.0
 
-### Running
 
-```
-python meta_reweighting.py 
-```
-
-## Data
+### Data
 Considering the copyright of Wiki-KBP and TACRED, we release the intermediate file of our dataset. You can download from [here](https://drive.google.com/file/d/1oEhUvQUHi0yJD-2BM2ufE9QPTY4atxZS/view?usp=sharing) and put the kbp_extend_data file in the project.
+
+### Running
+The last parameter represents the index of five reference datasets.
+
+```
+python meta_reweighting.py 0
+```
+
 
 ## Citation
 Please consider citing the following paper if you find our codes helpful. Thank you!
